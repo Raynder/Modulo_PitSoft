@@ -1,0 +1,106 @@
+*,
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe {
+    color: wheat;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.produto-imagem img {
+    width: 100%;
+}
+
+.produto-detalhes {
+    margin: 10px;
+    bottom: 0;
+    position: absolute;
+}
+
+.item {
+    /* border: solid red 4px; */
+    border-radius: 20px;
+    position: relative;
+    background: url(../../img/fundo.jpg) no-repeat;
+    height: 100%;
+}
+
+h1 {
+    font-size: 32pt;
+    text-align: center;
+    font-family: -webkit-body;
+}
+
+.barra {
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.barra.bottom {
+    bottom: 0;
+    background: #222222;
+}
+
+.barra.topo {
+    top: 0;
+    background: #222222;
+}
+
+.funcao {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.funcao p {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+
+@media (max-width: 750px) {
+    .produto {
+        width: 400px;
+        height: 350px;
+        margin: auto;
+    }
+    .item {
+        height: 100%;
+        margin: 50px;
+    }
+}
+
+.menu {
+    width: 80%;
+    height: 75vh;
+    margin: auto;
+    background: red;
+}

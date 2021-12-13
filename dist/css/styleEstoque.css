@@ -1,0 +1,127 @@
+*,
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 32pt;
+    text-align: center;
+    font-family: -webkit-body;
+}
+
+.barra {
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+}
+
+.barra.bottom {
+    bottom: 0;
+    background: #222222;
+}
+
+.barra.topo {
+    top: 0;
+    background: #222222;
+}
+
+.funcao {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.funcao p {
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
+
+.menu {
+    width: 80%;
+    height: 75vh;
+    margin: auto;
+}
+
+.ingrediente {
+    border: solid 2px black;
+    position: relative;
+    width: 22%;
+    height: 45%;
+    float: left;
+    margin: 1%;
+}
+
+@media (max-width: 750px) {
+    .ingrediente {
+        width: 45%;
+        height: 20%;
+        float: left;
+        margin: 1%;
+    }
+    .item {
+        height: 100%;
+        margin: 50px;
+    }
+}
+
+.nomeingrediente {
+    background: black;
+    top: 50%;
+    width: 100%;
+    position: relative;
+    transform: translateY(-50%);
+}
+
+.nomeingrediente p {
+    font-size: 20pt;
+    text-align: center;
+    font-family: -webkit-body;
+}
+
+.imgingrediente {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.imgingrediente img {
+    width: 100%;
+}
+
+.barra,
+.menu {
+    color: wheat;
+}
+
+input#valorEstoque {
+    BACKGROUND: #f5deb342;
+}
+
+a {
+    text-decoration: none;
+}
